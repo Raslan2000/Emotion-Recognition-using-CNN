@@ -4,24 +4,24 @@ There is a lot of information that can be gained from one’s facial features an
 
 
 Steps:
-Collecting Data and Preprocessing:
+
+1. Collecting Data and Preprocessing:
     a.  Finding the data: The dataset that is needed for this project was obtained from Kaggle.com. The dataset is Extended Cohn-Kanade Dataset.
     
    b. Preprocessing: In this step we open the dataset and traverse it through it and sort them into lists in the order depending on which class (i.e emotion in this case) do they correspond to. Then we encode the class labels so that they can be easily processed. 
 
-Splitting the dataset:
+2. Splitting the dataset:
 In order to make sure the model is working, we split the dataset into training set, i.e the set where the model learns the features and test set where the model checks if its assumption are correct
 Designing and deciding the models
 
 
-  3.  Designing and deciding the network and its structure:
-	Since we have decided to use Convolution Neural Networks which usually comprises of different layers such as:
+ 3.  Designing and deciding the network and its structure:
+Since we have decided to use Convolution Neural Networks which usually comprises of different layers such as:
 Convolutional Layer: This layer performs convolution operation with the input which helps in identifying the features of the input which cause the most change. 
 Pooling layer: This layer helps in downsampling the output from the previous layers which is essential compressing the feature maps.
 Dense layer: The neurons present in this layer receive inputs from all the neurons in the previous layer
 Activation Layer: This layer applies the activation function (basically a mathematical function) to each layer and compute and give the output.
-	In addition to these the hyper parameters for these layers should be
-	modified for proper output. In addition to this we can also use a
+In addition to these the hyper parameters for these layers should be modified for proper output. In addition to this we can also use a
 pretrained model which has worked with image classification. 
 Example of such models are MobileNet, VGG16, Inception V3..etc. 
 
