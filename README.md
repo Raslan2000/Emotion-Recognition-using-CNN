@@ -7,7 +7,7 @@ Steps:
 Collecting Data and Preprocessing:
     a.  Finding the data: The dataset that is needed for this project was obtained from Kaggle.com. The dataset is Extended Cohn-Kanade Dataset.
     
-    b. Preprocessing: In this step we open the dataset and traverse it through it and sort them into lists in the order depending on which class (i.e emotion in this case) do they correspond to. Then we encode the class labels so that they can be easily processed. 
+   b. Preprocessing: In this step we open the dataset and traverse it through it and sort them into lists in the order depending on which class (i.e emotion in this case) do they correspond to. Then we encode the class labels so that they can be easily processed. 
 
 Splitting the dataset:
 In order to make sure the model is working, we split the dataset into training set, i.e the set where the model learns the features and test set where the model checks if its assumption are correct
@@ -25,7 +25,7 @@ Activation Layer: This layer applies the activation function (basically a mathem
 pretrained model which has worked with image classification. 
 Example of such models are MobileNet, VGG16, Inception V3..etc. 
 
-    4. Compiling the model and training the model:
+   4. Compiling the model and training the model:
   After deciding and finalising the model we choose the optimizers
   which are basically different back propagation algorithms to find
    the weights of the features. Then deciding the number of epochs 
