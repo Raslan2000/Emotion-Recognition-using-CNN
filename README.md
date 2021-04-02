@@ -1,5 +1,4 @@
 # Emotion-Recognition-using-CNN
-These days everyone listens to music today for entertainment purposes and each person has a taste that is dynamic in nature, hence in order to provide them with the simplicity  of suggesting songs according to their mood instead of searching for them we chose to identify a person’s mood depending on the facial emotion recognized as that is the most reliable source for identifying the mood of the person .
 There is a lot of information that can be gained from one’s facial features and hence we can draw conclusions from those. It's pretty clear that when a person exhibits an emotion, their facial features tend to change, like the length of their lip, the distance between the eyebrows or the change in the eyes. By making a model to identify the features and what it implies by training a Convolutional Neural Network model on a given dataset. Neural Networks these days are the emerging technology and programming concept which has a wide range of applications and its very versatile. It’s almost being used in every field these days. Hence we chose that to implement our emotion recognition model. 
 
 
